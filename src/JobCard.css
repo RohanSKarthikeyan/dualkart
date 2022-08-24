@@ -1,0 +1,40 @@
+.jobcard_main{
+   display: flex;
+   justify-content: space-evenly;
+   font-family : 'heebo'
+}
+
+
+.JobCard{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img_div{
+    object-fit: contain;
+    width: 500px;
+    height: 500px;
+}
+.serviceman_img{
+   width: 100px;
+   height: 100px;
+}
+
+.condn_div > button{
+    color: black;
+    
+    background-color: white;
+    font-family: 'heebo';
+}
+
+.condn_div > button:hover{
+    background-color: black;
+    color: white;
+}
+
+.condn_div > input{
+    border: 2px solid black;
+}

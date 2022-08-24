@@ -1,0 +1,72 @@
+.ServiceComp{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-family: 'heebo';
+}
+
+.Service_image{
+    
+}
+
+
+.Service_info{
+    margin: 10px;
+}
+
+.Service_title{
+    border-bottom: 2px solid black;
+    
+}
+
+.Service_details{
+    border-bottom: 2px solid black;
+   
+}
+
+.User_details{
+    display: flex;
+    flex-direction: column;
+}
+
+.User_details >  table > button {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: white;
+}
+
+.User_details >  table > button:hover{
+    background-color: black;
+    color: white;
+}
+
+.comment_input{
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+#comment_input{
+    margin: 15px;
+}
+
+#rating{
+    margin: 15px;
+}
+
+.comment_input> button > button{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: white;
+}
+
+.comment_input> button:hover{
+    background-color: black;
+    color: white;
+}
+

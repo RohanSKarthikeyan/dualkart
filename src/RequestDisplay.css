@@ -1,0 +1,20 @@
+
+
+.home__row{
+    z-index: 1;
+    display:flex;
+    flex-direction: column;
+    
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.home{
+    max-width: 1300px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgb(234,237,237);
+}

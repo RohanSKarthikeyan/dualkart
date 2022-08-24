@@ -1,0 +1,34 @@
+.main_service{
+  max-width: 1500px;
+}
+
+
+.Service_Page{
+  max-width: 1300px;
+  display: flex;
+  justify-content: center;
+  margin-left:auto;
+  margin-right:auto;
+  font-family : 'heebo';
+ 
+}
+
+.home__row_service{
+  z-index: 1;
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+
+.main_service{
+  background-color: rgb(234,237,237);
+}
+
+.home__image{
+  width:100%;
+  height: 500px;
+  z-index:-1;
+  margin-bottom:-50px;
+  mask-image:linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0))
+}

@@ -1,0 +1,19 @@
+.service_page_main{
+    background-color: #0F1322;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 200px;
+   padding-right: 200px;
+    font-family: 'heebo';
+    color: white;
+    
+}
+
+
+.service_left{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-right: 10px;
+}

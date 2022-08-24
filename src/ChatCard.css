@@ -1,0 +1,54 @@
+.chat_main > img{
+    position: absolute;
+    z-index: -3;
+    width: 100%;
+}
+
+.chat_div{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    margin-bottom : 10px;
+    border-radius :10px; 
+    width: 65%;
+    background-color : #025144;
+    color: white;
+}
+
+.chat_top_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat_p_div{
+    margin: 10px;
+}
+
+.chat_bottom_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat_p_div > button {
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    font-family: 'heebo';
+    border-radius: 20px;
+    
+}
+
+.content_div{
+    justify-content: center;
+}
+
+.chat_p_div > button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+

@@ -1,0 +1,23 @@
+.body{
+    font-family : 'heebo';
+}
+
+.req_form_div >  form > table{
+   column-gap: 20px;
+}
+
+.add_prod{
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    font-family: 'heebo';
+    border-radius: 20px;
+} 
+
+.add_prod:hover{
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,27 @@
+.comment_main{
+    padding : 50px;
+    display : flex;
+    flex-direction : column;
+}
+
+.comment_div{
+    display: flex;
+    border: solid 1px black;
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    flex-direction: column;
+}
+
+
+.comment_name{
+    margin: 20px;
+}
+
+.comment_content{
+    margin-right : 10px
+}
+
+.content_div{
+    display : flex;
+}

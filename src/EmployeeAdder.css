@@ -1,0 +1,173 @@
+.outer_emp_div{
+    background-color: rgb(234,237,237);
+}
+
+.Employee_main_div{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+    margin: 30px;
+}
+
+.form_div{
+    border: 2px solid lightgray;
+   padding-right: 20px;
+   padding-left: 20px;
+   padding-bottom: 20px;
+   background-color: white;
+   
+}
+
+.input_div{
+    font-size: small;
+    flex: 1;
+    margin-bottom:10px ;
+    
+}
+
+.input_div > input{
+    border-top: 2px solid black;
+    border-bottom: 1px solid black;
+    border-left: 2px solid black;
+    border-right: 1px solid black;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.input_div > button{
+    width: 100%;
+    margin-right: 10px;
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    height: 30px;
+}
+
+
+.info_div1{
+    display : flex;
+}
+
+
+.full_img{
+    width: 100%;
+    height: 600px;
+    filter: grayscale(75%);
+    z-index : -1;
+}
+
+
+.first_img_div > h1{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 400px;
+    left: 1000px;
+    font-family: 'heebo';
+    font-weight: bolder;
+}
+
+.first_img_div > p{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 500px;
+    left: 1000px;
+    font-family: 'heebo';
+}
+
+.first_img_div > button{
+    position: absolute;
+    z-index: 1;
+    color: black;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 550px;
+    left: 1000px;
+    background-color: white;
+    font-weight: bolder;
+    font-family: 'heebo';
+}
+
+.first_img_div > button:hover{
+    background-color: black;
+    color: white;
+}
+
+.mid_design_div{
+    display: flex;
+    background-color: rgb(234,237,237);
+    width: 100%;
+}
+
+.info_div1{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.img_div{
+ 
+        overflow: hidden;
+      
+}
+
+.img_div > img{
+    width: 400px;
+    height: 450px;
+    filter:grayscale(75%);
+    border-radius : 30px;
+    border : 10px solid black;
+
+    transition: 0.5s all ease-in-out;
+}
+
+.img_div img:hover{
+    transform: scale(1.5);
+}
+
+
+
+.text_div_emp{
+    z-index: 3;
+    position: relative;
+    bottom: 350px;
+    left: 50px;
+
+}
+
+.text_div_emp > h1{
+    color: #FFFFFF;
+    font-family: 'heebo';
+}
+
+.text_div_emp > p{
+    color: #FFFFFF;
+    font-family: 'heebo';
+}
+
+.text_div_emp > button{
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    font-family: 'heebo';
+    font-size: larger;
+    border-radius: 20px;
+} 
+
+.text_div_emp > button:hover{
+    background-color: black;
+    color: white;
+}

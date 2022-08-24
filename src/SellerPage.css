@@ -1,0 +1,87 @@
+.seller_page_main{
+    background-color: #0F1322;
+    font-family: 'heebo';
+    display: flex;
+    border-radius: 20px;
+}
+
+
+.seller_left{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-right: 10px;
+    color: white;
+    justify-content: space-around;
+    max-height: 800px;
+    /* overflow: scroll; */
+    border-right: 1px lightgray dotted ;
+}
+
+.seller_left_nav{
+    margin-bottom: 225px;
+    padding-left:  30px;
+    padding-right: 30px;
+}
+
+.seller_left_nav > button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.seller_mid{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.seller_top{
+    color: white;
+    display: flex;
+    width: fit-content;
+    border-bottom: 1px  dotted white;
+    margin-bottom: 20px;
+}
+
+.seller_welcome_message{
+    margin-right: 500px ;
+}
+
+.seller_center{
+    width: 640px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    color: white;
+}
+
+.table_div_seller  > table > th{
+    margin-right: 30px;
+}
+
+.seller_request{
+   
+}
+
+.table_ordered{
+    border-collapse: separate;
+    border-spacing: 90px 0;
+}
+
+.sold_data{
+    color: white;
+}
+
+.td{
+    padding: 10px 0;
+}
+
+

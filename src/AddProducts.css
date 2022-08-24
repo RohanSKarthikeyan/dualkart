@@ -1,0 +1,15 @@
+.AddProductsProps{
+    padding:10px;
+}
+
+.AddProductsButton{
+    background: #f0c14b;
+    border-radius: 2px;
+    margin-left: 40px;
+    height: 30px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
