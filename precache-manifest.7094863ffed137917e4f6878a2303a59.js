@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "90976f04b44c3a7bf161",
+    "revision": "bb38ba9c127a0972bbeb",
     "url": "/dualkart/static/css/main.6acf2462.chunk.css"
   },
   {
-    "revision": "90976f04b44c3a7bf161",
-    "url": "/dualkart/static/js/main.90976f04.chunk.js"
+    "revision": "bb38ba9c127a0972bbeb",
+    "url": "/dualkart/static/js/main.bb38ba9c.chunk.js"
   },
   {
     "revision": "f69cd6e071770cb426f2",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/dualkart/static/media/Amazon_logo.e2c8828c.png"
   },
   {
-    "revision": "16934a6e0432054bf317afd26e50dd35",
+    "revision": "e975d14c3dd12927f264d2b0e8a4f960",
     "url": "/dualkart/index.html"
   }
 ];

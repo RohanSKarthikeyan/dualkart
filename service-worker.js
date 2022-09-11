@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/dualkart/precache-manifest.f46743a84733e62945ce26a1359fc50f.js"
+  "/dualkart/precache-manifest.7094863ffed137917e4f6878a2303a59.js"
 );
 
 workbox.clientsClaim();

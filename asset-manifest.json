@@ -1,7 +1,7 @@
 {
   "main.css": "/dualkart/static/css/main.6acf2462.chunk.css",
-  "main.js": "/dualkart/static/js/main.90976f04.chunk.js",
-  "main.js.map": "/dualkart/static/js/main.90976f04.chunk.js.map",
+  "main.js": "/dualkart/static/js/main.bb38ba9c.chunk.js",
+  "main.js.map": "/dualkart/static/js/main.bb38ba9c.chunk.js.map",
   "static/js/1.f69cd6e0.chunk.js": "/dualkart/static/js/1.f69cd6e0.chunk.js",
   "static/js/1.f69cd6e0.chunk.js.map": "/dualkart/static/js/1.f69cd6e0.chunk.js.map",
   "runtime~main.js": "/dualkart/static/js/runtime~main.36ae2c9b.js",
@@ -12,6 +12,6 @@
   "static/media/Amazon_logo.png": "/dualkart/static/media/Amazon_logo.e2c8828c.png",
   "static/css/main.6acf2462.chunk.css.map": "/dualkart/static/css/main.6acf2462.chunk.css.map",
   "index.html": "/dualkart/index.html",
-  "precache-manifest.f46743a84733e62945ce26a1359fc50f.js": "/dualkart/precache-manifest.f46743a84733e62945ce26a1359fc50f.js",
+  "precache-manifest.7094863ffed137917e4f6878a2303a59.js": "/dualkart/precache-manifest.7094863ffed137917e4f6878a2303a59.js",
   "service-worker.js": "/dualkart/service-worker.js"
 }
