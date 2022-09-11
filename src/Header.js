@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react'
 import './Header.css';
-import AmazonLogo from './images/white-amazon-logo.png'
+import Logo from './images/Fradel & Spies black.png'
 import { Link, useNavigate } from 'react-router-dom';
 import { useStateValue } from './StateProvider';
 import {auth, db} from "./firebase";
@@ -14,7 +14,7 @@ export default function Header() {
     
 
   const test = () => {
-      speak({text:'vanakam'})
+      speak({text:'vanakkam maal'})
   }
 
   const navigate = useNavigate();
@@ -57,7 +57,7 @@ export default function Header() {
 
   const basketnav = () =>{
     navigate('/checkout');
-    speak({text:'vanakam'})
+    speak({text:'Idhu Basket'})
   }
 
   const ordersPageNav = () => {
@@ -95,7 +95,7 @@ export default function Header() {
 
     <div className='header_div'>
 
-      <Link to='/'>  <img className='header_img' src={AmazonLogo}/> </Link>
+      <Link to='/'>  <img className='header_img' src={Logo}/> </Link>
       
       <div className='search_div'>
         <input className='search_div_input'/>

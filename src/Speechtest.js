@@ -11,7 +11,7 @@ function Speechtest(){
     
 
     const test = () => {
-        speak({text:'vanakam'})
+        speak({text:'Hi'})
     }
 
     return(

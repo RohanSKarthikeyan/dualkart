@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import './Login.css'
-import AmazonLogo from './images/Amazon_logo.png'
+import Logo from './images/Fradel & Spies.png'
 import { db,auth } from './firebase'
 import { Link, useNavigate } from 'react-router-dom';
 
@@ -36,7 +36,7 @@ function Login() {
   return (
     <div className='login_div'>
     <div className='logo_div'>
-    <Link to="/"><img className='header_img' src={AmazonLogo}/></Link>
+    <Link to="/"><img className='login_logo' src={Logo}/></Link>
     </div>
        <div className='login_box'>
             <h1>

@@ -59,10 +59,7 @@ function AddPoducts() {
         <label>Product Price:</label><br/>
         <input type="text" id="prod_price" required></input>
         </div>
-        <div className="AddProductsProps">
-        <label>Product Rating:</label><br/>
-        <input type="number" id="prod_rating" required></input>
-        </div>
+        
         <div className="AddProductsProps">
         <label>Product Quantity:</label><br/>
         <input type="number" id="prod_quantity" required></input>

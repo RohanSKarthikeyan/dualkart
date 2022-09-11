@@ -88,3 +88,141 @@
 
 Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
  
+[debug] [2022-09-03T04:28:06.090Z] ----------------------------------------------------------------------
+[debug] [2022-09-03T04:28:06.094Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Rohan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-09-03T04:28:06.095Z] CLI Version:   11.4.2
+[debug] [2022-09-03T04:28:06.095Z] Platform:      win32
+[debug] [2022-09-03T04:28:06.095Z] Node Version:  v16.14.0
+[debug] [2022-09-03T04:28:06.097Z] Time:          Sat Sep 03 2022 09:58:06 GMT+0530 (India Standard Time)
+[debug] [2022-09-03T04:28:06.098Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-03T04:28:06.110Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-09-03T04:28:06.265Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-03T04:28:06.265Z] > authorizing via signed-in user (rohankarthikeyan7@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2022-09-03T04:28:06.378Z] [hub] writing locator at C:\Users\Rohan\AppData\Local\Temp\hub-clone-95d40.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-09-03T04:28:07.587Z] defaultcredentials: writing to file C:\Users\Rohan\AppData\Roaming\firebase\rohankarthikeyan7_gmail_com_application_default_credentials.json
+[debug] [2022-09-03T04:28:07.595Z] Setting GAC to C:\Users\Rohan\AppData\Roaming\firebase\rohankarthikeyan7_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Rohan\\AppData\\Roaming\\firebase\\rohankarthikeyan7_gmail_com_application_default_credentials.json"}}
+[debug] [2022-09-03T04:28:07.598Z] > refreshing access token with scopes: []
+[debug] [2022-09-03T04:28:07.601Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-09-03T04:28:07.601Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-03T04:28:07.941Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-09-03T04:28:07.941Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-09-03T04:28:08.242Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-09-03T04:28:08.242Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-03T04:28:08.256Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-95d40/adminSdkConfig [none]
+[debug] [2022-09-03T04:28:09.125Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-95d40/adminSdkConfig 200
+[debug] [2022-09-03T04:28:09.125Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-95d40/adminSdkConfig {"projectId":"clone-95d40","storageBucket":"clone-95d40.appspot.com","locationId":"asia-south1"}
+[debug] [2022-09-03T04:28:09.156Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-09-03T04:28:09.157Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-09-03T04:28:09.157Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Rohan\\.cache\\firebase\\emulators\\ui-v1.8.1\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Rohan\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.8.1\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-09-03T04:28:12.853Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "C:\Users\Rohan\amazon-challenge\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Rohan\\amazon-challenge\\functions\" for Cloud Functions..."}}
+[debug] [2022-09-03T04:28:13.089Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[debug] [2022-09-03T04:28:36.477Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-09-03T04:28:36.478Z] Building nodejs source
+[debug] [2022-09-03T04:28:36.478Z] Analyzing nodejs backend spec
+[debug] [2022-09-03T04:28:36.481Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-09-03T04:28:38.433Z] Serving at port 9005
+
+[debug] [2022-09-03T04:28:38.849Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-09-03T04:28:38.868Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/clone-95d40/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/clone-95d40/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-09-03T04:28:58.710Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-03T04:28:58.711Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-03T04:28:58.712Z] Accepted request POST /clone-95d40/us-central1/api/payments/create?total=23700 --> us-central1-api
+[debug] [2022-09-03T04:29:00.939Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-09-03T04:29:00.940Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-09-03T04:29:00.940Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-09-03T04:29:00.941Z] [worker-us-central1-api-9b901295-d954-4623-82e5-837fbc17fce9]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9b901295-d954-4623-82e5-837fbc17fce9]: BUSY"}}
+[debug] [2022-09-03T04:29:03.925Z] [runtime-status] [2236] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\Rohan\\amazon-challenge\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\Rohan\\\\amazon-challenge\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-03T04:29:03.926Z] [runtime-status] [2236] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.22.0","resolution":"C:\\Users\\Rohan\\amazon-challenge\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.22.0\",\"resolution\":\"C:\\\\Users\\\\Rohan\\\\amazon-challenge\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-03T04:29:03.927Z] [runtime-status] [2236] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-09-03T04:29:03.929Z] [runtime-status] [2236] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.22.0","resolution":"C:\\Users\\Rohan\\amazon-challenge\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.22.0\",\"resolution\":\"C:\\\\Users\\\\Rohan\\\\amazon-challenge\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-03T04:29:04.042Z] [runtime-status] [2236] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-09-03T04:29:04.042Z] [runtime-status] [2236] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.22.0","resolution":"C:\\Users\\Rohan\\amazon-challenge\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.22.0\",\"resolution\":\"C:\\\\Users\\\\Rohan\\\\amazon-challenge\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-09-03T04:29:04.044Z] [runtime-status] [2236] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.22.0","resolution":"C:\\Users\\Rohan\\amazon-challenge\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.22.0\",\"resolution\":\"C:\\\\Users\\\\Rohan\\\\amazon-challenge\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-03T04:29:04.047Z] [runtime-status] [2236] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\Rohan\\amazon-challenge\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\Rohan\\\\amazon-challenge\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-03T04:29:04.048Z] [runtime-status] [2236] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.22.0","resolution":"C:\\Users\\Rohan\\amazon-challenge\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.22.0\",\"resolution\":\"C:\\\\Users\\\\Rohan\\\\amazon-challenge\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-03T04:29:04.049Z] [runtime-status] [2236] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\Rohan\\amazon-challenge\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\Rohan\\\\amazon-challenge\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-09-03T04:29:04.050Z] [runtime-status] [2236] Functions runtime initialized. {"cwd":"C:\\Users\\Rohan\\amazon-challenge\\functions","node_version":"16.14.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Rohan\\\\amazon-challenge\\\\functions\",\"node_version\":\"16.14.0\"}"}}
+[debug] [2022-09-03T04:29:04.438Z] [runtime-status] [2236] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-09-03T04:29:04.440Z] [runtime-status] [2236] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Running api in signature http"}}
+[debug] [2022-09-03T04:29:04.449Z] [runtime-status] [2236] Listening to port: \\?\pipe\fire_emu_e0e30ec0df13aa1f {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Listening to port: \\\\?\\pipe\\fire_emu_e0e30ec0df13aa1f"}}
+[debug] [2022-09-03T04:29:04.493Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-03T04:29:04.494Z] [functions] Got req.url=/clone-95d40/us-central1/api/payments/create?total=23700, mapping to path=/payments/create?total=23700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-95d40/us-central1/api/payments/create?total=23700, mapping to path=/payments/create?total=23700"}}
+[debug] [2022-09-03T04:29:04.505Z] [runtime-status] [2236] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Ephemeral server handling POST request"}}
+[info] >  Payment request received >  23700 {"user":"Payment request received >  23700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request received >  23700"}}
+[debug] [2022-09-03T04:29:05.663Z] [runtime-status] [2236] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~2s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~2s"}}
+[debug] [2022-09-03T04:29:06.992Z] [worker-us-central1-api-9b901295-d954-4623-82e5-837fbc17fce9]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9b901295-d954-4623-82e5-837fbc17fce9]: IDLE"}}
+[debug] [2022-09-03T04:29:06.993Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-03T04:46:08.895Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-03T04:46:08.896Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-03T04:46:08.896Z] Accepted request POST /clone-95d40/us-central1/api/payments/create?total=23700 --> us-central1-api
+[debug] [2022-09-03T04:46:08.896Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-09-03T04:46:08.897Z] [worker-us-central1-api-9b901295-d954-4623-82e5-837fbc17fce9]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9b901295-d954-4623-82e5-837fbc17fce9]: BUSY"}}
+[debug] [2022-09-03T04:46:08.898Z] [runtime-status] [2236] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-09-03T04:46:08.900Z] [runtime-status] [2236] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Running api in signature http"}}
+[debug] [2022-09-03T04:46:08.901Z] [runtime-status] [2236] Listening to port: \\?\pipe\fire_emu_e0e30ec0df13aa1f {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Listening to port: \\\\?\\pipe\\fire_emu_e0e30ec0df13aa1f"}}
+[debug] [2022-09-03T04:46:09.008Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-03T04:46:09.009Z] [functions] Got req.url=/clone-95d40/us-central1/api/payments/create?total=23700, mapping to path=/payments/create?total=23700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-95d40/us-central1/api/payments/create?total=23700, mapping to path=/payments/create?total=23700"}}
+[debug] [2022-09-03T04:46:09.013Z] [runtime-status] [2236] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Ephemeral server handling POST request"}}
+[info] >  Payment request received >  23700 {"user":"Payment request received >  23700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request received >  23700"}}
+[debug] [2022-09-03T04:46:09.021Z] [runtime-status] [2236] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2236] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-09-03T04:46:09.749Z] [worker-us-central1-api-9b901295-d954-4623-82e5-837fbc17fce9]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9b901295-d954-4623-82e5-837fbc17fce9]: IDLE"}}
+[debug] [2022-09-03T04:46:09.749Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-03T05:12:38.022Z] Received signal SIGHUP 1

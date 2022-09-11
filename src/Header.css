@@ -12,8 +12,9 @@
 
 .header_img{
     object-fit: contain;
-    width: 100px;
-    margin: 10px 30px 10px 10px;
+    width: 250px;
+    height: 1000px;
+    margin: 10px 0px 0px 0px;
 }
 
 .search_div{

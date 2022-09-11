@@ -12,7 +12,7 @@ function HomeAppliances() {
  
         db
         .collection('products')
-        .doc('Electronics')
+        .doc('Laptops')
         .collection('product_id')
         .onSnapshot(snapshot => (
             console.log(snapshot),

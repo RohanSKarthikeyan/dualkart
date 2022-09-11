@@ -23,7 +23,8 @@ const state={
   curDT : new Date().toLocaleString(),
 }
 
-const sendChat = () =>{
+const sendChat = (e) =>{
+  setChats(e.target.value);
   details.map(detail => {
     if(detail.data.email == user.email){
       db.collection('Service_Chats').doc().set({
@@ -31,8 +32,8 @@ const sendChat = () =>{
         email : user.email,
         name : detail.data.name,
         specialization : detail.data.specialization,
-        chat  : chat,
-        date_n_time : state.curDT
+        chat  : chats,
+        date_n_time : state.curDTs
       })
     }
   })
@@ -86,7 +87,7 @@ const seller_Req=(e)=>{
     <div className='seller_page_main'>
       <div className='seller_left'>
        <div className='seller_left_nav'>
-        <button onClick={navHome}>AMAZON</button>
+        <button onClick={navHome}>DUALKART</button>
        </div>
        <div className='seller_left_nav'>
         <button onClick={dash}>SOLD PRODUCTS</button>
