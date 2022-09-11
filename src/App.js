@@ -68,7 +68,7 @@ export default function App(){
     },[])
 
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
         <div classname="app">
             <Routes>
                 <Route exact path="/" element={<Home/>} />
