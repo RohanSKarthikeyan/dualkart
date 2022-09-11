@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import {BrowserRouter as Router, Routes, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route, Switch, BrowserRouter} from 'react-router-dom';
 import CheckOut from "./CheckOut.js";
 import Home from "./Home.js";
 import Login from "./Login.js";
@@ -68,7 +68,7 @@ export default function App(){
     },[])
 
     return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div classname="app">
             <Routes>
                 <Route exact path="/" element={<Home/>} />
@@ -98,6 +98,6 @@ export default function App(){
                 <Route exact path='/speechtest' element={<Speechtest/>}/>
             </Routes>
         </div>
-        </Router>
+        </BrowserRouter>
     );
 }
